@@ -1,16 +1,34 @@
-# React + Vite
+# Abhishek Joshilkar - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio built with **React.js** and **Vite**. This single-page application showcases my front-end development skills, modular coding practices, and core projects including a Weather Dashboard and an E-commerce UI.
 
-Currently, two official plugins are available:
+🚀 **Live Demo**
+[Insert Your Deployed Vercel/Netlify Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Technologies Used
 
-## React Compiler
+* **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
+* **Build Tool:** Vite
+* **Deployment:**  Netlify
+* **Optimization:** React.lazy, Suspense, Asset Minification
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Development Process & Optimizations
 
-## Expanding the ESLint configuration
+1.  **Component Architecture:** Divided the UI into modular React components (`Hero`, `Skills`, `Projects`, `Contact`) for better maintainability and reusability.
+2.  **Performance Tuning:** Implemented `React.lazy()` and `<Suspense>` for code-splitting. This ensures that sections of the page are only loaded when required, significantly reducing the initial bundle size and improving Time to Interactive (TTI).
+3.  **Responsive Design:** Utilized CSS Grid and Flexbox alongside media queries to ensure a seamless experience across mobile, tablet, and desktop devices.
+4.  **Production Build:** Leveraged Vite's underlying Rollup bundler via `npm run build` to automatically minify JavaScript and CSS files, further decreasing load times.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Key Projects Featured
+
+* **Weather Application:** A real-time dashboard fetching data via OpenWeather API with dynamic unit conversion.
+* **AJ Park Landing Page:** A commercial project featuring complex pricing tables for water and amusement park services.
+
+## 🏃‍♂️ How to Run Locally
+
+1.  **Clone the repository:** `git clone https://github.com/Abhishek-Joshilkar/Abhishek-portfolio.git`
+2.  **Navigate to the directory:** `cd Abhishek-portfolio`
+3.  **Install dependencies:** `npm install`
+4.  **Start the development server:** `npm run dev`
+5.  **Create a production build:** `npm run build`
+6.  **Preview the production build:** `npm run preview`
