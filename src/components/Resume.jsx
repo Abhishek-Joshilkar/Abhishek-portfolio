@@ -33,7 +33,7 @@ export default function Resume() {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="./assets/Resume.pdf"
+              href="./assets/Abhishek_Joshilkar_Resume.pdf"
               download
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all group"
             >

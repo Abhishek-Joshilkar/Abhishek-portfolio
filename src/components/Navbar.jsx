@@ -35,7 +35,7 @@ export default function Navbar({ scrollToSection }) {
           className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
           whileHover={{ scale: 1.05 }}
         >
-          Abhishek
+          Abhishek Joshilkar
         </motion.a>
 
         {/* Desktop Nav */}

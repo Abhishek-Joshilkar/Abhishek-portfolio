@@ -44,7 +44,7 @@ export default function Hero({ scrollToSection }) {
           className="text-lg md:text-2xl text-slate-400 mb-8"
           variants={itemVariants}
         >
-          Full Stack Developer | React Specialist | Java Backend
+          Full Stack Developer 
         </motion.p>
 
         {/* Description */}

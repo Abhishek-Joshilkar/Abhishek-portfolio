@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 /* Smooth scroll behavior */
 html {
@@ -24,11 +23,7 @@ html {
   }
 
   #root {
-    @apply max-w-full mx-auto min-h-screen flex flex-col;
-    width: 1126px;
-    max-width: 100%;
-    border-left: 1px solid rgba(71, 85, 105, 0.3);
-    border-right: 1px solid rgba(71, 85, 105, 0.3);
+    @apply min-h-screen flex flex-col w-full;
   }
 
   h1 {

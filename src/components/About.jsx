@@ -55,7 +55,7 @@ export default function About() {
 
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
-                Full Stack Developer with B.Sc. Computer Science (Distinction) from MIT College, Alandi, Pune.
+              Graduate with  B.Sc. Computer Science  from MIT College, Alandi, Pune.
               </p>
               <p>
                 Passionate about building responsive, modern web applications. Skilled in HTML, CSS, Bootstrap, JavaScript, React, Java, and MySQL.
@@ -71,9 +71,9 @@ export default function About() {
               variants={containerVariants}
             >
               {[
-                { label: "Projects", value: "10+" },
+                { label: "Projects", value: "5" },
                 { label: "Tech Stack", value: "7+" },
-                { label: "Experience", value: "2y+" }
+                { label: "Experience", value: "Fresher" }
               ].map((stat, i) => (
                 <motion.div
                   key={i}
